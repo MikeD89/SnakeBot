@@ -1,0 +1,19 @@
+{
+  "name": "snakebot",
+  "version": "1.0.0",
+  "description": "A JavaScript Bot for Snake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeloN89/SnakeBot.git"
+  },
+  "author": "Mike Duller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeloN89/SnakeBot/issues"
+  },
+  "homepage": "https://github.com/MeloN89/SnakeBot#readme"
+}
