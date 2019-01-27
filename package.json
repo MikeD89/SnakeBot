@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/MeloN89/SnakeBot#readme",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
