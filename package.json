@@ -1,11 +1,8 @@
 {
   "name": "snakebot",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "private": true,
   "description": "A JavaScript Bot for Snake",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MeloN89/SnakeBot.git"
@@ -15,5 +12,16 @@
   "bugs": {
     "url": "https://github.com/MeloN89/SnakeBot/issues"
   },
-  "homepage": "https://github.com/MeloN89/SnakeBot#readme"
+  "homepage": "https://github.com/MeloN89/SnakeBot#readme",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  }
 }
