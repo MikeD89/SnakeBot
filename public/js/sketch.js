@@ -8,7 +8,7 @@
     background(42, 169, 217);
   
     // ellipse
-    fill(244, 228, 21);
+    fill(244, 228, 221);
     ellipse(100,100,100,100);
   
     //rectangle
