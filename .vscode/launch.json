@@ -5,10 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch localhost",
+            "name": "Launch (NPM Start)",
             "type": "chrome",
             "request": "launch",
             "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/public"
+        },
+        {
+            "name": "Launch (Gulp Autoreload)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3002",
             "webRoot": "${workspaceFolder}/public"
         },
     ]
